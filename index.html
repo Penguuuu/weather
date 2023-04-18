@@ -10,15 +10,16 @@
     <div class="container">
       <header>Weather Search</header>
 
-      <form>
+      <form id="searchForm">
         <input type="text" placeholder="Enter city name" id="city-input" />
         <button type="submit" id="search-btn">Search</button>
+        <button id="reset-btn">Reset Search</button>
       </form>
 
       <div id="weather-data">
-        <h2 id="city"></h2>
+        <h2 id="cityDisplay"></h2>
         <p id="date"></p>
-        <img id="icon" />
+        <img id="icon" src="" alt="">
         <p id="temp"></p>
         <p id="humidity"></p>
         <p id="wind"></p>
