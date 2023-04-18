@@ -29,7 +29,7 @@ searchBtn.addEventListener('click', (event) => {
       })
       .catch((error) => {
         console.error('Error:', error);
-        weatherDataEl.innerHTML = '<p>Unable to fetch weather data.</p>';
+        weatherDataEl.innerHTML = '<p>City data not found.</p>';
       });
   } else {
     weatherDataEl.innerHTML = '<p>Please enter a city name.</p>';
