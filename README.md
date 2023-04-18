@@ -13,3 +13,4 @@ When a city is searched, it will display the weather forecast for that city.
 https://openweathermap.org/forecast5
 
 # live page
+https://penguuuu.github.io/weather/
